@@ -1,0 +1,6 @@
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\bin\Debug\hascode.exe.config
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\bin\Debug\hascode.exe
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\bin\Debug\hascode.pdb
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.csprojResolveAssemblyReference.cache
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.exe
+c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.pdb
