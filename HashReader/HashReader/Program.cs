@@ -68,6 +68,7 @@ namespace hascode
                     Console.WriteLine(photoData[y].tags[x]);
                 }
             }
+<<<<<<< HEAD
 
             for (int x = 0; x<photoData.Count; x++) {
                 if (photoData[x].orientation != photoData[x++].orientation) {
@@ -88,6 +89,55 @@ namespace hascode
 
 
         //end of gile
+=======
+            List<int> slidesIndex = AddPhotoIndexToSlides(photoData);
+            int points = 0;
+            int currentSlide = 0;
+            for (int s = 0; s < slidesIndex.Count; s++)
+            {
+                CheckNextSlide(ref photoData, ref currentSlide, ref points);
+                //CheckPreviousSlide(ref photoData, ref currentSlide, ref points);
+            }
+            Console.WriteLine("Points-- {0}", points);
+        }
+        static List<int> AddPhotoIndexToSlides(List<Photo> photoData)
+        {
+            List<int> slidesIndex = new List<int>(80000);
+            for (int i = 0; i < photoData.Count; i++)
+            {
+                slidesIndex.Add(i);
+            }
+            return slidesIndex;
+        }
+        static void CheckNextSlide(ref List<Photo> photoData, ref int currentSlide, ref int points)
+        {
+            for (int c = 0; c < photoData[currentSlide].numOfTags; c++)
+            {
+                int nextSlide = currentSlide + 1;
+                for (int n = 0; n < photoData[nextSlide].numOfTags; n++)
+                {
+                    if (photoData[currentSlide].tags[c] == photoData[nextSlide].tags[n])
+                    {
+                        points++;
+                    }
+                }
+            }
+        }
+        //static void CheckPreviousSlide(ref List<Photo> photoData, ref int currentSlide, ref int points)
+        //{
+        //    for (int c = 0; c < photoData[currentSlide].numOfTags; c++)
+        //    {
+        //        int previousSlide = currentSlide - 1;
+        //        for (int p = 0; p < photoData[previousSlide].numOfTags; p++)
+        //        {
+        //            if (photoData[currentSlide].tags[c] == photoData[previousSlide].tags[p])
+        //            {
+        //                points++;
+        //            }
+        //        }
+        //    }
+        //}
+>>>>>>> 6c2f4e3bb1eefc523e83f49278e5a59f18cb393d
     }
 }
 

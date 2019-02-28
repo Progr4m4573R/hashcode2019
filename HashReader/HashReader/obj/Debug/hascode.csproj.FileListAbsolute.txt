@@ -4,6 +4,7 @@ c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\bin\Debug\has
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.csprojResolveAssemblyReference.cache
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.exe
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.pdb
+<<<<<<< HEAD
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe.config
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\bin\Debug\hascode.pdb
@@ -11,3 +12,12 @@ C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\obj\De
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\obj\Debug\hascode.csproj.CoreCompileInputs.cache
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\obj\Debug\hascode.exe
 C:\Users\ghost_000\Desktop\Google Hash\hashcode2019\HashReader\HashReader\obj\Debug\hascode.pdb
+=======
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.csprojAssemblyReference.cache
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.csproj.CoreCompileInputs.cache
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.exe
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.pdb
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe.config
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.pdb
+>>>>>>> 6c2f4e3bb1eefc523e83f49278e5a59f18cb393d
