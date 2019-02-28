@@ -9,6 +9,7 @@ namespace hascode
 {
     public class Photo
     {
+        public int photoPos { get; set; }
         public string orientation { get; set; }
         public int numOfTags { get; set; }
         public List<string> tags = new List<string>();
@@ -28,9 +29,11 @@ namespace hascode
         {
             List<string> unFiltered = import();     //storing the imported data
             List<Photo> filtered = new List<Photo>();       //defining a new p0hoto data type list for storing the extracted photos
+            int total = 0;
             foreach (string x in unFiltered)
             {
                 Photo addPhoto = new Photo();    //creating a new instance of the photo class
+                addPhoto.photoPos = total;
                 var line = x.Split(' ');        //splitting the strings at the spaces
                 addPhoto.orientation = line[0];     //as we know the position of first two elements dont change 
                 addPhoto.numOfTags = Convert.ToInt32(line[1]);
@@ -40,6 +43,7 @@ namespace hascode
                 }
 
                 filtered.Add(addPhoto);  //adding the completed photo to the list
+                total++;
             }
 
             return filtered;    //returning the list of photos
@@ -56,6 +60,7 @@ namespace hascode
 
             for (int y = 0; y < 10; y++)
             {
+                Console.WriteLine(photoData[y].photoPos);
                 Console.WriteLine(photoData[y].orientation);
                 Console.WriteLine(photoData[y].numOfTags);
                 for (int x = 0; x < photoData[y].tags.Count; x++)
@@ -73,5 +78,6 @@ namespace hascode
  *                              .numOfTags - returns the number of tags for that photo
  *                              .tags[index] - list of all the tags to that photo
  *                              .tags.Count - tells you how many elements are in that list
+ *                              .photoPos - returns the position of the photo from the original txt file
  * 
- * 
+ * */
