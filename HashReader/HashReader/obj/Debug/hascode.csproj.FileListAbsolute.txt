@@ -4,3 +4,10 @@ c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\bin\Debug\has
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.csprojResolveAssemblyReference.cache
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.exe
 c:\users\xas\documents\visual studio 2017\Projects\hascode\hascode\obj\Debug\hascode.pdb
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.csprojAssemblyReference.cache
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.csproj.CoreCompileInputs.cache
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.exe
+C:\Users\Student\hashcode2019\HashReader\HashReader\obj\Debug\hascode.pdb
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe.config
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.exe
+C:\Users\Student\hashcode2019\HashReader\HashReader\bin\Debug\hascode.pdb
