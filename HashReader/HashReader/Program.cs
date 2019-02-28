@@ -49,11 +49,11 @@ namespace hascode
             return filtered;    //returning the list of photos
         }
     }
-        class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            string filePath = @"b_lovely_landscapes.txt";   //setting the filepath of the photos
+            string filePath = @"c_memorable_moments.txt";   //setting the filepath of the photos";
             DataImport newImport = new DataImport();    //creating a new instance of the import class
             newImport.Filepath = filePath;      //setting the filepath for the new instance
             var photoData = newImport.filter(); //storing the completed photo filters 
@@ -68,9 +68,26 @@ namespace hascode
                     Console.WriteLine(photoData[y].tags[x]);
                 }
             }
+
+            for (int x = 0; x<photoData.Count; x++) {
+                if (photoData[x].orientation != photoData[x++].orientation) {
+                    var swap0 = photoData[x];
+                    var swap1 = photoData[x++];
+                    photoData[x] = swap1;
+                    photoData[x++] = swap0;
+                    
+                }
+                Console.WriteLine(photoData[x].orientation);
+            }
+
             Console.ReadLine();
-            
+
         }
+
+
+
+
+        //end of gile
     }
 }
 
